@@ -1,0 +1,193 @@
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    padding-left: 60px;
+    text-align: right;
+    flex: 1;
+}
+
+.flexlinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 2;
+    margin-right: 90px;
+    
+}
+
+#myprofile {
+    font-size: large;
+}
+
+.headerspacing {
+    background-color: black;
+    width: 140px;
+}
+
+.buttonspace {
+    display: flex;
+    width: 200px;
+    align-items: flex-start;
+}
+
+.signout {
+    margin-left: -20px;
+    height: 30px;
+    width: 90px;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.primeflex {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    height: 750px;
+}
+.maincard {
+    width: 500px;
+    height: 350px;
+    color: black;
+    outline-style: solid;
+    outline-color: gray;
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 25px;  
+}
+
+.banner {
+    width: 500px;
+    height: 75px;
+    background-color: cornflowerblue;
+}
+
+.infobox1 {
+    display: flex;
+    width: 400px;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: -40px;
+}
+
+#profilepic {
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+}
+#name {
+    margin-top: -1px;
+}
+.location {
+    display: flex;
+    width: 100px;
+    margin-top: -30px;
+}
+#pin {
+    margin-top: 15px;
+}
+#city {
+    margin-left: 8px;
+}
+
+.infobox2 {
+    margin-left: 15px;
+}
+.infobox2 p {
+    height: 10px;
+}
+.edit {
+    margin-top: 50px;
+}
+
+.location img, .edit img {
+    height: 15px;
+    width: 15px;
+}
+
+.education {
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 147px;
+    border-style: solid;
+    border-color: gray;
+    border-bottom: white;
+}
+.eduheader {
+    margin-top: -19px;
+    width: 500px;
+    height: 30px;
+    color: white;
+    outline-style: solid;
+    outline-color: rgb(39, 39, 39);
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+}
+#education {
+margin-left: 20px;
+}
+
+.references {
+    display: flex;
+    flex-flow: column;
+}
+#refdate {
+    margin-top: -15px;
+    color: gray;
+}
+
+.connecticon {
+    height: 20px;
+    width: 20px;
+}
+
+.requests, .yourconnections {
+    height: 200px;
+    width: 250px;
+    margin-top: 25px;
+    margin-right: 110px;
+    border-style: solid;
+    border-color: gray;
+}
+.reqheader, .connheader{
+    margin-top: -20px;
+    height: 60px;
+    color: white;
+    background-color: rgb(39, 39, 39);
+    line-height: 60px;
+    text-align: center;
+}
+.connecticonuser{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+.connecticonp, .connecticont {
+    height: 35px;
+    width: 35px;
+}
+
+#flextodd, #flexphil {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.yourconnections {
+    height: 400px;
+}
+.friendflex {
+    display: flex;
+    align-items: center;
+}
+.viewmore {
+    
+}
